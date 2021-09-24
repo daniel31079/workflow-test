@@ -33,6 +33,7 @@ jobs:
             ls -la $GITHUB_WORKSPACE
             ls -la
             echo "Daniel ist so alt: " $DANIELS_AGE_IN_DER_BASH >> umgebung.txt
+            echo "Daniel ist so alt: " $DANIELS_AGE_IN_DER_BASH
          # Die Aenderungen die wir vorher erstellt haben sollen jetzt auch gepushed werden   
        - name: Commit files
          run: |
