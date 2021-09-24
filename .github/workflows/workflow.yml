@@ -3,9 +3,7 @@
 name: Daniels erster Workflow
 
 # Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push: main
+on: push
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -17,4 +15,4 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
         # Das wird dann ausführt.
-        run: echo Hello, world!
+       - run: echo Hello, world!
