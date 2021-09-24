@@ -20,6 +20,7 @@ jobs:
             ls -la
             pwd
             env
+        # Das Run hier unten erzeugt eine neue Datei.
         # Das wird dann ausführt.
        - run: echo Hello, world!
        - name: In Repo schreiben
@@ -28,3 +29,12 @@ jobs:
             ls -la >> umgebung.txt
             ls -la $GITHUB_WORKSPACE
             ls -la
+         # Die Aenderungen die wir vorher erstellt haben sollen jetzt auch gepushed werden   
+       - name: Commit files
+         run: |
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .
+            git commit -m "Add changes" -a     
+       - name: Push changes
+         uses: ad-m/github-push-action@master
