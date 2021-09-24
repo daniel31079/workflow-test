@@ -3,10 +3,10 @@ GOROOT_1_17_X64=/opt/hostedtoolcache/go/1.17.1/x64
 CONDA=/usr/share/miniconda
 GITHUB_WORKSPACE=/home/runner/work/workflow-test/workflow-test
 JAVA_HOME_11_X64=/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64
-GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_6b86595f-5d2a-488f-97a0-b00d3ecb25ce
+GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_a9ee08fe-5264-4dee-92fc-27a3fa16ee47
 GITHUB_ACTION=__run_3
 JAVA_HOME=/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64
-GITHUB_RUN_NUMBER=6
+GITHUB_RUN_NUMBER=7
 RUNNER_NAME=Hosted Agent
 GRADLE_HOME=/usr/share/gradle-7.2
 XDG_CONFIG_HOME=/home/runner/.config
@@ -22,7 +22,7 @@ PIPX_BIN_DIR=/opt/pipx_bin
 DEPLOYMENT_BASEPATH=/opt/runner
 GITHUB_ACTIONS=true
 ANDROID_NDK_LATEST_HOME=/usr/local/lib/android/sdk/ndk/22.1.7171670
-GITHUB_SHA=ceba291f0b27077e54e8d54d5b052625994b4f94
+GITHUB_SHA=1ef2a7317d6bbc6a7f13469a0b72f80494d6fa00
 POWERSHELL_DISTRIBUTION_CHANNEL=GitHub-Actions-ubuntu20
 DOTNET_MULTILEVEL_LOOKUP=0
 GITHUB_REF=refs/heads/main
@@ -30,14 +30,13 @@ RUNNER_OS=Linux
 HOME=/home/runner
 GITHUB_API_URL=https://api.github.com
 LANG=C.UTF-8
-RUNNER_TRACKING_ID=github_e27adb83-a3e7-40bf-9ca9-4449ad70145b
-STATS_KEEPALIVE=false
+RUNNER_TRACKING_ID=github_7f2885f2-be6a-4f57-8d0d-7f733778733b
 RUNNER_TEMP=/home/runner/work/_temp
-GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_6b86595f-5d2a-488f-97a0-b00d3ecb25ce
+GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_a9ee08fe-5264-4dee-92fc-27a3fa16ee47
 GITHUB_EVENT_PATH=/home/runner/work/_temp/_github_workflow/event.json
-INVOCATION_ID=98f0c950cd10480fbe1bbdb7d855d6c6
+INVOCATION_ID=023c63e19a1f4315a5f4267e1530ad43
 GITHUB_EVENT_NAME=push
-GITHUB_RUN_ID=1269267252
+GITHUB_RUN_ID=1269272479
 ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk-bundle
 HOMEBREW_NO_AUTO_UPDATE=1
 GITHUB_ACTOR=daniel31079
@@ -47,8 +46,8 @@ GITHUB_RUN_ATTEMPT=1
 ANDROID_HOME=/usr/local/lib/android/sdk
 GOROOT_1_14_X64=/opt/hostedtoolcache/go/1.14.15/x64
 GITHUB_GRAPHQL_URL=https://api.github.com/graphql
-RUNNER_USER=runner
 ACCEPT_EULA=Y
+RUNNER_USER=runner
 USER=runner
 GITHUB_SERVER_URL=https://github.com
 HOMEBREW_CELLAR=/home/linuxbrew/.linuxbrew/Cellar
@@ -67,10 +66,10 @@ GITHUB_JOB=Daniel-baut-was
 AZURE_EXTENSION_DIR=/opt/az/azcliextensions
 PERFLOG_LOCATION_SETTING=RUNNER_PERFLOG
 GITHUB_REPOSITORY=daniel31079/workflow-test
-ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk-bundle
 CHROME_BIN=/usr/bin/google-chrome
+ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk-bundle
 GITHUB_RETENTION_DAYS=90
-JOURNAL_STREAM=8:21103
+JOURNAL_STREAM=8:21864
 RUNNER_WORKSPACE=/home/runner/work/workflow-test
 LEIN_HOME=/usr/local/lib/lein
 LEIN_JAR=/usr/local/lib/lein/self-installs/leiningen-2.9.7-standalone.jar
@@ -91,9 +90,9 @@ AGENT_TOOLSDIRECTORY=/opt/hostedtoolcache
 GOROOT_1_16_X64=/opt/hostedtoolcache/go/1.16.8/x64
 _=/usr/bin/env
 total 24
-drwxr-xr-x 4 runner docker 4096 Sep 24 09:31 .
-drwxr-xr-x 3 runner docker 4096 Sep 24 09:31 ..
-drwxr-xr-x 8 runner docker 4096 Sep 24 09:31 .git
-drwxr-xr-x 3 runner docker 4096 Sep 24 09:31 .github
--rw-r--r-- 1 runner docker   44 Sep 24 09:31 README.md
--rw-r--r-- 1 runner docker 3751 Sep 24 09:31 umgebung.txt
+drwxr-xr-x 4 runner docker 4096 Sep 24 09:33 .
+drwxr-xr-x 3 runner docker 4096 Sep 24 09:33 ..
+drwxr-xr-x 8 runner docker 4096 Sep 24 09:33 .git
+drwxr-xr-x 3 runner docker 4096 Sep 24 09:33 .github
+-rw-r--r-- 1 runner docker   59 Sep 24 09:33 README.md
+-rw-r--r-- 1 runner docker 3729 Sep 24 09:33 umgebung.txt
