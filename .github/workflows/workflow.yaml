@@ -14,5 +14,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+       - name: Checke Repo aus
+         uses: actions/checkout@v2
+       - run: |
+            ls -la
+            pwd
+            echo "Da ust es ausgecheckt"$GITHUB_WORKDIR
         # Das wird dann ausführt.
        - run: echo Hello, world!
