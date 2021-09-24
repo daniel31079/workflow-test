@@ -19,6 +19,6 @@ jobs:
        - run: |
             ls -la
             pwd
-            echo "Da ust es ausgecheckt"$GITHUB_WORKDIR
+            env
         # Das wird dann ausführt.
        - run: echo Hello, world!
