@@ -1,5 +1,5 @@
 name: get changed Files
-on: [push, pull_request]
+on: [pull_request]
 jobs: 
     job_1:
         name: Get all Changed Files
